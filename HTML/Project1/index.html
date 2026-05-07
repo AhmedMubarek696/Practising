@@ -3,83 +3,89 @@
     <head>
         <meta charset="UTF-8">
         <meta name="Author" content="Ahmed Mohammed">
-        <meta name="Description" content="This is my first HTML Webpage">
+        <meta name="Description" content="This is the home page">
         <title>My First Webpage</title>
-        <link rel="icon" href="HTML_Logo.png" type="image/x-icom">
+        <link rel="icon" href="HTML_Logo.png" type="image/x-icon">
         <link rel="stylesheet" href="Main.CSS" type="text/CSS">
     </head>
     <body>
-        <h1>This is the first header of the page</h1>
-        <h2>This is the second header</h2>
-        <h3>This is the third header</h3>
-        <h4>This is h4 and is equal to the size of the paragraph</h4>
-        <p>This is a paragraph to compare the font size. It is not bold. And it has a different font type.</p>
-        <h5>This is h5 and is smaller than paragraph size</h5>
-        <h6>This is h6 and the last header. It is the smallest on the page</h6>
-
+        <h1>This is header 1</h1>
+        <h2>This is header 2</h2>
+        <h3>This is header 3</h3>
+        <h4>This is header 4</h4>
+        <p>This is a paragraph</p>
+        <h5>This is header 5</h5>
+        <h6>This is header 6</h6>
+        <br>
+        <br>
+        <br>
         <nav>
-            <ul>
-                <li><a href="#PartA">Part A</a></li>
-                <li><a href="#PartB">Part B</a></li>
-            </ul>
-        </nav>
-
-        <section id="#PartA">
-            <h2>This is h2 for section Part A</h2>
-            <p>This is a paragraph for the section details.</p>
-        </section>
-
-        <section id="#PartB">
-            <h2>This is h2 for section Part B</h2>
-            <p>This is a paragraph for the details of section Part B.</p>
-            <img src="HTML_Logo.png" alt="HTML Logo 1" title="Logo Tilte" width="348" height="395">
-            <p>If image link is not working it will show alt value instead</p>
-            <p>title is what shows when hovering over the image.</p>
-            <figure>
-                <figcaption>This is a figure caption for the following part</figcaption>
-                <p>Showing a code as a text</p>
-                <code>&lt;h1&gt;HelloWorld&lt;h1&gt;</code>
-                <h3>Lines with spaces at first</h3>
-                <p>Main line in a paragraph before single lines:
-                    <br>&nbsp;&nbsp;&nbsp;... The first line
-                    <br>&nbsp;&nbsp;&nbsp;... The second line
-                    <br>&nbsp;&nbsp;&nbsp;... The third line
-
-                </p>
-            </figure>
-        </section>
-
-        <abbr title="Explanation for shortcut">Shortcut</abbr>
-        <h3>Ordered List</h3>
-            <ol>
-                <li>the first line</li>
-                <li>The second line</li>
-                <li>The third line</li>
-            </ol>
-            <h3>shortcut for a link</h3>
-            <abbr title="Full Explanation">
-                <a href="http://www.google.com">Shortcut</a>
-            </abbr>
-            <h3>A link for a shortcut</h3> 
-            <a href="http://www.google.com">
-                <abbr title="Link Explanation">Link Name</abbr>
-            </a>
-            <p>Adding a line hr horizontal rule</p>
             <hr>
-            <p>Adding an empty line as br line break</p>
+                <ul>
+                    <li><a href="#Linkd">Link A</a></li>
+                    <li><a href="#Linke">Link B</a></li>
+                    <li><a href="#Linkf">Link C</a></li>
+                </ul>
+            <hr>
+        </nav>
             <br>
             <br>
-            <p>After the end of the br line break</p>
-            <em>This is a stress emphasis element italic font</em>
-            <!--
-            Some comment notes inside the code
-            To do: add more places
-            -->
+            <section id="Linkd">
+                <h2>A List Section</h2>
+                <ol>
+                    <li>The First Line</li>
+                    <li>The Second Line</li>
+                    <li>The Third Line</li>
+                </ol>
+            </section>
+            <hr>
+            <section id="Linke">
+                <h2>This is a header 2</h2>
+                <figure>
+                    <img src="HTML_Logo.png" alt="Html logo 1" title="A logo Image" width="348" height="395" loading="lazy">
+                    <figcaption>
+                        This is a figure caption 1
+                    </figcaption>
+                </figure>
+                <br>Main Line and single lines inside a paragraph
+                        <br>&nbsp;&nbsp;&nbsp;...The first single line
+                        <br>&nbsp;&nbsp;&nbsp;...The second single line
+                        <br>&nbsp;&nbsp;&nbsp;...The third single line
+            </section>
+            <hr>
             <br>
-            <strong>It is called strong: bold font</strong>
             <br>
-            I can add a text without any element.
-            &lt;&lt;&lt; &copy; Ahmed Mohammed&gt;&gt;&gt;
+            <br>Showing a code as a text
+            <code>&lt;h1&gt;header 1&lt;h1&gt;</code>
+            <br>
+            <hr>
+            <section id="Linkf">
+                <h2>Section C</h2>
+                <figure>
+                    <figcaption>An image for vacation</figcaption>
+                    <img src="img/VacationA.jpg" alt="Vacation A" title="Vacation A" width="500" height="450" loading="lazy">
+                </figure>
+                <abbr title="Full Explanation">
+                            <strong>Shortcut</strong>
+                        </abbr>
+                        <br> <em>Italic font feature</em>
+            </section>
+            <address>
+                Address 1 <br>
+                address 2 <br>
+                Address 3
+            </address>
+            <!--Comment inside the code-->
+            <h2>Description List</h2>
+            <dl>
+                <dt>Description Title 1</dt>
+                <dd>Description Detail 1</dd>
+                <dt>Description Title 2</dt>
+                <dd>Description Detail 2</dd>
+                <dt>Description Title 3</dt>
+                <dd>Description Detail 3</dd>
+            </dl>
+            <a href="about.html">About</a>
+            <br>&lt;&lt;&lt;&copy;Ahmed Mohammed&gt;&gt;&gt;
     </body>
-
 </html>
