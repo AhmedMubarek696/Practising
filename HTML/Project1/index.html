@@ -3,89 +3,85 @@
     <head>
         <meta charset="UTF-8">
         <meta name="Author" content="Ahmed Mohammed">
-        <meta name="Description" content="This is the home page">
+        <meta name="Description" content="This is my new webpage for HTML">
         <title>My First Webpage</title>
         <link rel="icon" href="HTML_Logo.png" type="image/x-icon">
-        <link rel="stylesheet" href="Main.CSS" type="text/CSS">
+        <link rel="stylesheet" href="main.CSS" type="text/CSS">
     </head>
     <body>
-        <h1>This is header 1</h1>
-        <h2>This is header 2</h2>
-        <h3>This is header 3</h3>
-        <h4>This is header 4</h4>
-        <p>This is a paragraph</p>
-        <h5>This is header 5</h5>
-        <h6>This is header 6</h6>
-        <br>
-        <br>
-        <br>
-        <nav>
-            <hr>
+        <header>
+            <h1>Page Header</h1>
+            <nav>
                 <ul>
-                    <li><a href="#Linkd">Link A</a></li>
-                    <li><a href="#Linke">Link B</a></li>
-                    <li><a href="#Linkf">Link C</a></li>
+                    <li><a href="#section-a">Section A</a></li>
+                    <li><a href="#section-b">Section B</a></li>
+                    <li><a href="#">SectionC</a></li>
                 </ul>
+            </nav>
+
+        </header>
+        <hr>
+        <hr>
+        <main>
+            <Section id="section-a">
+                <h2>Section A</h2>
+                <p>This section is for adding Articles of A</p>
+                <hr>
+                <article>
+                    <h3>List A1</h3>
+                    <p>
+                        <ol>
+                            <li>Line 1 of the list</li>
+                            <li>Line 2 of the list</li>
+                            <li>Line 3 of the list</li>
+                        </ol>
+                    </p>
+
+                </article>
+                <hr>
+
+                <article>
+                    <h3>Article A2</h3>
+                    <p>
+                        Applying a <strong>bold</strong> word
+                        <br> <em>italik</em> style
+                        <br>A shortcut with link <a href="https://www.google.com/">
+                            <abbr title="Full Explanation">ABC</abbr>
+                        </a>
+                    </p>
+                </article>
+
+            </Section>
             <hr>
-        </nav>
-            <br>
-            <br>
-            <section id="Linkd">
-                <h2>A List Section</h2>
-                <ol>
-                    <li>The First Line</li>
-                    <li>The Second Line</li>
-                    <li>The Third Line</li>
-                </ol>
+            <section id="section-b">
+                <h2>Section B</h2>
+                <p>This section is for Adding Articles of B</p>
+                <hr>
+                <article>
+                    <h3>Article B1</h3>
+                    <p>This is Article B1</p>
+                </article>
+                <hr>
+
             </section>
             <hr>
-            <section id="Linke">
-                <h2>This is a header 2</h2>
-                <figure>
-                    <img src="HTML_Logo.png" alt="Html logo 1" title="A logo Image" width="348" height="395" loading="lazy">
-                    <figcaption>
-                        This is a figure caption 1
-                    </figcaption>
-                </figure>
-                <br>Main Line and single lines inside a paragraph
-                        <br>&nbsp;&nbsp;&nbsp;...The first single line
-                        <br>&nbsp;&nbsp;&nbsp;...The second single line
-                        <br>&nbsp;&nbsp;&nbsp;...The third single line
+            <section>
+                <h2>Order Form</h2>
+                <p>You can add your preferences down here:</p>
+                <hr>
+                <article>
+                    <form action="">
+
+                    </form>
+                </article>
+
             </section>
-            <hr>
-            <br>
-            <br>
-            <br>Showing a code as a text
-            <code>&lt;h1&gt;header 1&lt;h1&gt;</code>
-            <br>
-            <hr>
-            <section id="Linkf">
-                <h2>Section C</h2>
-                <figure>
-                    <figcaption>An image for vacation</figcaption>
-                    <img src="img/VacationA.jpg" alt="Vacation A" title="Vacation A" width="500" height="450" loading="lazy">
-                </figure>
-                <abbr title="Full Explanation">
-                            <strong>Shortcut</strong>
-                        </abbr>
-                        <br> <em>Italic font feature</em>
-            </section>
-            <address>
-                Address 1 <br>
-                address 2 <br>
-                Address 3
-            </address>
-            <!--Comment inside the code-->
-            <h2>Description List</h2>
-            <dl>
-                <dt>Description Title 1</dt>
-                <dd>Description Detail 1</dd>
-                <dt>Description Title 2</dt>
-                <dd>Description Detail 2</dd>
-                <dt>Description Title 3</dt>
-                <dd>Description Detail 3</dd>
-            </dl>
-            <a href="about.html">About</a>
-            <br>&lt;&lt;&lt;&copy;Ahmed Mohammed&gt;&gt;&gt;
+        </main>
+        <hr>
+        <hr>
+        <footer>
+            <br>&lt;&lt;&lt;Ahmed Mohammed&gt;&gt;&gt;
+        </footer>
+        
     </body>
 </html>
