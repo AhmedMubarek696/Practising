@@ -1,9 +1,9 @@
-html{font-size: 22px;}
+html {font-size: 22px;}
 body {
     background-color: #333;
-    color: whitesmoke;
+    color: white;
 }
-a {color:deepskyblue;}
-a:hover{color: rgb(35, 117, 194);}
-a:active {color: rgb(21, 84, 202);}
-a:visited {color:rgb(111, 49, 168);}
+a {color: #3399CC;}
+a:hover {color: #33A1FF;}
+a:active {color: #66CCFF;}
+a:visited {color: #336699}
