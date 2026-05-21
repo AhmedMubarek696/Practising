@@ -3,85 +3,178 @@
     <head>
         <meta charset="UTF-8">
         <meta name="Author" content="Ahmed Mohammed">
-        <meta name="Description" content="This is my new webpage for HTML">
-        <title>My First Webpage</title>
-        <link rel="icon" href="HTML_Logo.png" type="image/x-icon">
+        <meta name="Description" content="This is my first html webpage">
+        <title>My first Webpage</title>
+        <link rel="icon" href="img/HTML_Logo.png" type="image/x-icon">
         <link rel="stylesheet" href="main.CSS" type="text/CSS">
     </head>
     <body>
-        <header>
+       <header>
             <h1>Page Header</h1>
-            <nav>
+            <nav aria-label="nav A">
+                <h2>Navigation A</h2>
+
                 <ul>
-                    <li><a href="#section-a">Section A</a></li>
-                    <li><a href="#section-b">Section B</a></li>
-                    <li><a href="#">SectionC</a></li>
+                    <li><a href="#section-a">Figures</a></li>
+                    <li><a href="#section-b">Lists</a></li>
+                    <li><a href="#section-c">Text Formats</a></li>
                 </ul>
             </nav>
-
-        </header>
         <hr>
         <hr>
-        <main>
-            <Section id="section-a">
-                <h2>Section A</h2>
-                <p>This section is for adding Articles of A</p>
-                <hr>
-                <article>
-                    <h3>List A1</h3>
-                    <p>
-                        <ol>
-                            <li>Line 1 of the list</li>
-                            <li>Line 2 of the list</li>
-                            <li>Line 3 of the list</li>
-                        </ol>
-                    </p>
 
-                </article>
-                <hr>
+       </header> 
+       <main>
+            <section id="Section-a">
+                <h2>Figures</h2>
+                    <article>
+                        <h3>Image Example</h3>
+                        <p>This shows the details of an image with caption</p>
 
-                <article>
-                    <h3>Article A2</h3>
-                    <p>
-                        Applying a <strong>bold</strong> word
-                        <br> <em>italik</em> style
-                        <br>A shortcut with link <a href="https://www.google.com/">
-                            <abbr title="Full Explanation">ABC</abbr>
-                        </a>
-                    </p>
-                </article>
+                        <figure>
+                            <figcaption>The image below is for <strong>HTML</strong> symbol</figcaption>
+                            <img src="img/HTML_Logo.png" alt="HTML icon" title="HTML icon" width="500">
+                        </figure>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Code Example</h3>
+                        <p>This shows how to write a code as a text</p>
 
-            </Section>
-            <hr>
+                        <figure>
+                            <figcaption>
+                                Writing a code for a header of <em>h2</em>
+                            </figcaption>
+                            <code>&lt;h2&gt;Header Name&lt;h2&gt;</code>
+                        </figure>
+                    </article>
+
+                    <hr>
+                    <hr>
+            </section>
             <section id="section-b">
-                <h2>Section B</h2>
-                <p>This section is for Adding Articles of B</p>
-                <hr>
-                <article>
-                    <h3>Article B1</h3>
-                    <p>This is Article B1</p>
-                </article>
-                <hr>
+                <h2>Lists</h2>
+                    <article>
+                        <h3>Unordered List</h3>
 
+                        <ul>
+                            <li>The First Value</li>
+                            <li>The second Value</li>
+                            <li>The Third Value</li>
+                        </ul>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Ordered List</h3>
+
+                        <ol>
+                            <li>The first ordered value</li>
+                            <li>The second ordered value</li>
+                            <li>The third ordered value</li>
+                        </ol>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Description List</h3>
+                        <dl>
+                            <dt>Description Title 1</dt>
+                            <dd>Description Detail 1</dd>
+
+                            <dt>Description Title 2</dt>
+                            <dd>Description Detail 2</dd>
+
+                            <dt>Description Title 3</dt>
+                            <dd>Description Title 3</dd>
+                        </dl>
+                    </article>
+                    <hr>
+                    <hr>
             </section>
-            <hr>
-            <section>
-                <h2>Order Form</h2>
-                <p>You can add your preferences down here:</p>
-                <hr>
-                <article>
-                    <form action="">
-
-                    </form>
-                </article>
-
+            <section id="section-c">
+                <h2>Text Formats</h2>
+                    <article>
+                        <h3>Address Format</h3>
+                        <p>Adding address in different lines</p>
+                        <address>
+                            the first line <br>
+                            the second line <br>
+                            the third line <br>
+                        </address>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Padding Space</h3>
+                        <p>
+                            &nbsp;&nbsp;&nbsp; Start after three spaces<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start after five spaces <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp; Start after four spaces <br>
+                            &nbsp;&nbsp; Start after two spaces
+                        </p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Highlighting text</h3>
+                        <p>
+                            <strong>Bold</strong> - <em>Italic</em> - <mark>Highlight Background</mark><br>
+                            <abbr title="The Full Title">ABC</abbr>
+                        </p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Hiding Details</h3>
+                        <details>
+                            <summary>Click for showing all details</summary>
+                            <p>
+                                the first detail line <br>
+                                the second detail line <br>
+                                the third detail line
+                            </p>
+                        </details>
+                    </article>
+                    <hr>
+                    <hr>
             </section>
-        </main>
-        <hr>
-        <hr>
-        <footer>
-            <br>&lt;&lt;&lt;Ahmed Mohammed&gt;&gt;&gt;
-        </footer>
-        
+            <section id="section-d">
+                <h2>Title Levels</h2>
+                    <article>
+                        <h3>Article A Level 3</h3>
+                            <aside>
+                                <h4>aside title 1</h4>
+                                <p>The content for aside 1</p>
+                            </aside>
+                            <aside>
+                                <h4>aside title 2</h4>
+                                <p>The content for aside 2</p>
+                            </aside>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Article B Level 3</h3>
+                            <aside>
+                                <h4>aside title 3</h4>
+                                <p>The content for aside 3</p>
+                            </aside>
+                            <aside>
+                                <h4>aside title 4</h4>
+                                <p>The content for aside 4</p>
+                            </aside>
+                    </article>
+                    <hr>
+                    <hr>
+            </section>
+
+            <!--
+                a comment block
+            -->
+                
+       </main>
+       <footer>
+            <a href="me.html">Me</a> <br>
+            <a href="Tables.html">Tables</a> <br>
+            <a href="Forms.html">Forms</a> <br>
+            <a href="#">Back to the top</a> <br>
+            &lt;&lt;&lt;&copy;Ahmed Mohammed&gt;&gt;&gt;
+       </footer>
     </body>
+
 </html>
