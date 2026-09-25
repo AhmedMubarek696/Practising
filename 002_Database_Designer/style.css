@@ -5,19 +5,49 @@
 }
 
 body {
+    font-size: 1.5vw;
     text-align: center;
+    background-color: #333;
+    color: #fff;
 }
 
+
 h1 {
-    font-size: 3rem;
     margin: 1em;
 }
 
 nav {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     margin: 1em;
 }
 
 li {
     list-style: none;
+}
+
+a:link {
+    color: #3399CC;
+}
+
+a:visited {
+    color: #336699;
+}
+
+a:hover {
+    color: #33A1FF;
+}
+
+a:active {
+    color: #66CCFF;
+}
+
+.profile-image {
+    width: 20vw;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.full-width {
+    width: 75vw;
 }
